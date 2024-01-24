@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #4A2545;
+    color: #DCCCA3;
+    text-align: center;
+}
+
+h1 {
+    margin: 2rem;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3rem;
+
+}
+
+.container {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 58vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    /* background-color: #000001; #DCCCA3 #824C71 #4A2545 #000001 #90AA86 */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #DCCCA3;
+    color: #000001;
+    border: none;
+    border-radius: 2rem;
+    font-size: 8vmin;
+
+}
+
+#reset {
+
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    background-color: #90AA86;
+    color: #000001;
+    border: none;
+    padding: 0.7rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.win {
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+    background-color: #90AA86;
+    color: #000001;
+    border: none;
+    padding: 0.3rem;
+    font-size: 3rem;
+}
+
+.hide {
+    display: none;
+    border: #000001;
+}
